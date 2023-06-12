@@ -1,0 +1,146 @@
+body,
+html {
+  margin: none;
+  padding: none;
+  color: rgb(225, 219, 219);
+  background-color: black;
+  text-shadow: 0 0 4px black;
+  text-align: center;
+  font-family: "MedievalSharp", cursive;
+}
+
+header {
+  display: flex;
+  background-image: url(/Images/giphy.gif);
+  background-size: cover;
+  align-items: center;
+  justify-content: flex-start;
+  height: 200px;
+  width: 100%;
+}
+
+h1 {
+  margin-left: 28%;
+}
+
+span {
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: capitalize;
+}
+
+#nav {
+  position: fixed;
+  right: 2%;
+  top: 4%;
+}
+
+ul {
+  list-style: none;
+  margin-right: 50px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+button {
+  background-image: url(/images/crab.gif);
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#icon {
+  height: 180px;
+  margin-left: 50px;
+}
+
+.pimg1,
+.pimg2 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(/images/pexels-jeniffer-collee-7329886.jpg);
+  min-height: 100vh;
+}
+
+.pimg2 {
+  background-image: url(/images/pexels-steven-paton-15683069.jpg);
+  min-height: 600px;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "flex1 flex2"
+    "flex3 flex4";
+  height: 100vh;
+  max-width: 100%;
+  background-color: black;
+  gap: 5px;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(44, 1, 44);
+  background-image: linear-gradient(rgb(21, 43, 116), rgb(7, 7, 72));
+  border-radius: 5%;
+}
+
+.flex-img {
+  max-width: 40%;
+  max-height: 40%;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/Images/giphy.gif);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+#about {
+  margin: 5%;
+}
+#contact {
+  margin: 5%;
+}
+
+a {
+  color: aquamarine;
+}
